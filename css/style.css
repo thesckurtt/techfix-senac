@@ -424,3 +424,105 @@ body {
 .newsletter-input > input:focus{
   outline: none;
 }
+
+
+/* ------------------------------------------------ */
+/* Página serviços */
+
+/* Banner */
+.banner{
+  position: relative;
+  background-image: url('../imgs/bg-hero.png');
+  height: 219px;
+  border-radius: 8px;
+  margin-top: 70px;
+}
+.banner > span{
+  position: relative;
+  display: block;
+  font-size: 3.375em;
+  color: #FFE946;
+  top: 84px;
+  left: 18px;
+}
+
+/* Services Search */
+
+.services-search{
+  margin-top: 32px;
+  border-radius: 8px;
+  background-color: #263238;
+  min-height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 21px;
+}
+.inpt-search-group{
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;;
+  width: fit-content;
+  color: #D9DBE1;
+  background-color: #ffffff58;
+  padding: 10px 15px;
+  line-height: 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.875em;
+}
+.inpt-search-group:nth-child(1) , .inpt-search-group:nth-child(2){
+  justify-content: flex-start;
+  width: 207px;
+}
+.inpt-search-container{
+  position: relative;
+  /* border: 1px dashed red; */
+  max-width: 400px;
+  width: 100%;
+  height: fit-content;
+}
+.inpt-search{
+  display: block;
+  position: relative;
+  width: 100% !important;
+  cursor: text;
+}
+.inpt-search::placeholder{
+  font-size: 1.010em;
+  color: #D9DBE1;
+}
+.inpt-search-group:focus{
+  outline: none;
+}
+.inpt-search-container{
+  display: flex;
+}
+.btn-search-group{
+  display: inline-block;
+  max-width: 99px;
+  width: 100%;
+  background-color: #4caf4f;
+  border: none;
+  max-height: 40px;
+  margin-left: 6px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+}
+/* filter-alert */
+.filter-alert{
+  padding: 20px 14px;
+  color: #737373;
+}
+.remove-filter{
+  border: 1px solid #7373735b;
+  padding: 3px 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  left: 10px;
+  /* font-weight: 700; */
+}
