@@ -291,3 +291,135 @@ body {
 .card-review-img-container > img{
   width: 100%;
 }
+
+/* cta-section */
+.cta-section{
+  margin-top: 70px;
+  background-color: #F5F7FA;
+  height: 326px;
+}
+.cta-section-container{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cta-section-title{
+  font-size: 4em;
+  color: #263238;
+}
+
+/* footer-site */
+.footer-site{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #263238;
+  color: #fff;
+  height: 327px;
+}
+.footer-site-container {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  padding: 0 50px ;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+/* footer-site-div-1 */
+.footer-site-div-1-title{
+  font-size: 2.75em;
+  display: block;
+  margin-bottom: 8px;
+}
+.footer-site-div-1-subtitle{
+  display: block;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+.footer-social-icons{
+  display: flex;
+  gap: 16px;
+}
+.footer-social-icons > a{
+  color: #fff;
+  display: flex;
+  font-size: 1.6em;
+  background-color: #3b464c;
+  width: 42px;
+  height: 42px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 100%;
+}
+
+/* footer-site-div-2 */
+.footer-site-div-2{
+  height: 158px;
+}
+.footer-site-div-2-title{
+  font-size: 1.5em;
+  display: block;
+  margin-bottom: 16px;
+}
+.footer-site-div-2-menu{
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.footer-site-div-2-menu > li{
+}
+.footer-site-div-2-menu > li > a{
+  text-decoration: none;
+  color: #fff;
+}
+/* .footer-site-div-3  */
+.footer-site-div-3{
+  height: 158px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-site-div-3-title{
+  font-size: 1.5em;
+  display: block;
+  margin-bottom: 16px;
+}
+.footer-site-div-3-subtitle{
+  display: block;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+.newsletter-input{
+  /* border: 1px dashed red; */
+  max-width: 309px;
+  height: 40px;
+  background-color: #515b60;
+  border-radius: 8px;
+}
+.newsletter-input > input::placeholder{
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0px 14px;
+  color: #fff;
+}
+.newsletter-input > input{
+  position: relative;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.8em;
+  color: #fff;
+  padding: 0px 14px;
+  height: 100%;
+  width:  87%;
+  border-radius: 8px;
+  border: none;
+  background-color: #00000000;
+}
+.newsletter-input > input:focus{
+  outline: none;
+}
