@@ -441,8 +441,9 @@ body {
   display: block;
   font-size: 3.375em;
   color: #ffe946;
-  top: 84px;
+  top: 44px;
   left: 18px;
+  line-height: 1.5;
 }
 
 /* Services Search */
